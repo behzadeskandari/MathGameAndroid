@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/download"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:text="Addtion"
+        app:backgroundTint="#03A9F4" />
+
+    <!-- Button 2 -->
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:text="Subtraction"
+        app:backgroundTint="#03A9F4" />
+
+    <!-- Button 3 -->
+    <Button
+        android:id="@+id/butttonMulti"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:text="Mutipication"
+        app:backgroundTint="#03A9F4" />
+
+</LinearLayout>
